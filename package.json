@@ -1,0 +1,22 @@
+{
+  "name": "dep-gate",
+  "version": "0.1.0",
+  "description": "Look up the packages your agent added in npm and PyPI before anyone installs them, and flag the missing, brand new, install-script, deprecated and typo-squat-looking ones.",
+  "type": "module",
+  "bin": {
+    "dep-gate": "dep-gate.mjs"
+  },
+  "files": ["dep-gate.mjs", "README.md", "LICENSE"],
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": ["dependencies", "supply-chain", "npm", "pypi", "ci", "ai-agents", "typosquatting"],
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tick-ai/dep-gate.git"
+  }
+}
