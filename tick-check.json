@@ -1,0 +1,1 @@
+{"command":"node","args":["sealed/check.mjs"],"timeout_ms":120000}
